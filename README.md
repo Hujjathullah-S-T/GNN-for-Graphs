@@ -17,9 +17,9 @@ Takes planar graph (L_1) as input.
 
 Randomly permutes 10 vertices.
 
-Computes Computes (L1) ∪ π(L1)
+Computes (L1) ∪ π(L1)
 
-Keeps samples with chromatic number 8 or 9.
+Keeps samples with chromatic number 7 or 8 or 9.
 
 Creates a balanced augmented dataset of about 5,000 samples.
 
@@ -39,7 +39,7 @@ Tests the generated graph, its permutation, and their union.
 Checks planarity and chromatic number.
 
 Supports large-scale generation and filtering for chromatic number
-8 or 9.
+7 or 8 or 9.
 
 Main outputs: - Conditional_GNN_GAN_ALL_GENERATED.csv -
 Conditional_GNN_GAN_50000_VERIFIED.csv -
